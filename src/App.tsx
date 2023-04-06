@@ -1,15 +1,20 @@
 import React from "react";
-import logo from "./logo.svg";
+// import { Routes, Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.js";
 import "./App.css";
+import NavbarScroll from "./components/navbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>VseSvoe</p>
-      </header>
-    </div>
+    <section className="App">
+      <NavbarScroll />
+      <main className="main">
+        {/* <Routes>
+          <Route />
+        </Routes> */}
+      </main>
+    </section>
   );
 }
 
