@@ -2,7 +2,7 @@ import React from "react";
 // import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.js";
-import "./App.css";
+import "./App.scss";
 import NavbarScroll from "./components/navbar";
 
 function App() {
