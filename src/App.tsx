@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.js";
 import "./App.scss";
 import NavbarScroll from "./components/navbar";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route />
         </Routes> */}
       </main>
+      <Footer />
     </section>
   );
 }
