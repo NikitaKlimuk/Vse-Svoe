@@ -12,7 +12,7 @@ function Footer() {
           <img src={mainLogoV} alt="main logo" />
           <div className="footer__app-text">SE SVOE</div>
         </a>
-        <div className="footer__app-links">
+        <div className="footer__app-links d-flex gap-2">
           <a href="https://play.google.com/store/apps?hl=ru&gl=US&pli=1">
             <img src={android} alt="google play market" />
           </a>
