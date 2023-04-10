@@ -1,0 +1,45 @@
+@import "../../styles/variables.scss";
+
+.mainPage {
+  .header {
+    margin: 0 60px;
+    &__main {
+      background-image: url("../../img/mainPage/Rectangle 17.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      border-radius: 26px;
+      &-title {
+        font-family: "Proxima Nova";
+        padding-top: 61px;
+        display: flex;
+        justify-content: center;
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 78px;
+        color: $searchBg;
+      }
+      &-descr {
+        display: flex;
+        justify-content: center;
+        font-family: "Proxima Nova";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: $searchBg;
+        padding-bottom: 72px;
+      }
+    }
+    &__additional {
+      display: flex;
+      &-work {
+        background-image: url("../../img/mainPage/Rectangle 17.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+    }
+  }
+}
