@@ -1,3 +1,5 @@
+import tomato from "../img/categories/all/san_marzano.jpg";
+
 export const vseSvoeData = {
   footerLink: [
     { title: "Что продаем", link: "/" },
@@ -22,5 +24,22 @@ export const vseSvoeData = {
       title: "Frontend: Mikita Klimuk",
       link: "https://www.linkedin.com/in/nikitaklimuk",
     },
+  ],
+  catalog: [
+    {
+      title: "Помидоры",
+      descr: "От Красных до Зеленых",
+      alt: "раздел помидоры",
+      imgUrl: tomato,
+      link: "/",
+    },
+    // { potatoes: [] },
+    // { cucumbers: [] },
+    // { berries: [] },
+    // { milk: [] },
+    // { baking: [] },
+    // { meat: [] },
+    // { honey: [] },
+    // { fruits: [] },
   ],
 };

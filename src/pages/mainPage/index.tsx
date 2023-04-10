@@ -1,6 +1,11 @@
+import CatalogCart from "../../components/catalogCart";
+import { vseSvoeData } from "../../config";
+import { v4 as uuidv4 } from "uuid";
 import "./styles.scss";
 
 const MainPage = () => {
+  const catalog = vseSvoeData.catalog;
+
   return (
     <div className="mainPage">
       <section className="header">
@@ -22,6 +27,21 @@ const MainPage = () => {
             <a href="/">О Доставке</a>
           </div>
         </div>
+      </section>
+
+      <section className="catalog">
+        {catalog.map((item) => {
+          return (
+            <CatalogCart
+              title={item.title}
+              descr={item.descr}
+              img={item.imgUrl}
+              alt={item.alt}
+              cartLink={item.link}
+              key={uuidv4()}
+            />
+          );
+        })}
       </section>
     </div>
   );
