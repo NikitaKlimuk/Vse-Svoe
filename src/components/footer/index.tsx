@@ -3,6 +3,7 @@ import mainLogoV from "../../assets/logo/mainLogoV.svg";
 import android from "../../assets/icons/android.svg";
 import iphone from "../../assets/icons/iphone.svg";
 import { vseSvoeData } from "../../config";
+import { v4 as uuidv4 } from "uuid";
 
 function Footer() {
   return (
@@ -26,20 +27,29 @@ function Footer() {
 
       <div className="footer__links">
         {vseSvoeData.footerLink.map((item) => {
-          return <a href={item.link}>{item.title}</a>;
+          return (
+            <a href={item.link} key={uuidv4()}>
+              {item.title}
+            </a>
+          );
         })}
       </div>
       <hr className="footer__hr" />
       <div className="footer__copyright">
         <div className="d-flex gap-3">
           {vseSvoeData.footerCopyright.map((item) => {
-            return <p>{item}</p>;
+            return <p key={uuidv4()}>{item}</p>;
           })}
         </div>
         <div className="d-flex gap-3">
           {vseSvoeData.footerAuthors.map((item) => {
             return (
-              <a href={item.link} target="_blank" rel="noreferrer noopener">
+              <a
+                href={item.link}
+                key={uuidv4()}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 {item.title}
               </a>
             );
