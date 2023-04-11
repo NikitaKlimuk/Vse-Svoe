@@ -1,4 +1,7 @@
 import tomato from "../assets/img/categories/all/san_marzano.jpg";
+import potato from "../assets/img/categories/all/potato.png";
+import bread from "../assets/img/categories/all/bread.png";
+import honey from "../assets/img/categories/all/honey.png";
 
 export const vseSvoeData = {
   footerLink: [
@@ -33,13 +36,36 @@ export const vseSvoeData = {
       imgUrl: tomato,
       link: "/",
     },
-    // { potatoes: [] },
-    // { cucumbers: [] },
-    // { berries: [] },
-    // { milk: [] },
-    // { baking: [] },
-    // { meat: [] },
-    // { honey: [] },
-    // { fruits: [] },
+    {
+      title: "Картофель",
+      descr: "Любые сорта",
+      alt: "раздел картофель",
+      imgUrl: potato,
+      link: "/",
+    },
+    {
+      title: "Хлеб",
+      descr: "Самый свежий!",
+      alt: "раздел выпечки",
+      imgUrl: bread,
+      link: "/",
+    },
+    {
+      title: "Мед",
+      descr: "Натуральный",
+      alt: "раздел мед",
+      imgUrl: honey,
+      link: "/",
+    },
   ],
+  mainPageText: {
+    header: "Все фермерское - здесь!",
+    descr:
+      "Покупайте продукты напрямую по первой цене более чем у 150 хозяйств по все Беларуси",
+    work: "О Работе",
+    collect: "О Сборе",
+    delivery: "О Доставке",
+    season: "Сейчас в сезоне",
+    allCatalog: "Смотреть все",
+  },
 };
