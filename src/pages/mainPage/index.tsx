@@ -39,6 +39,7 @@ const MainPage = () => {
               alt={item.alt}
               cartLink={item.link}
               key={uuidv4()}
+              isCatalogButton
             />
           );
         })}

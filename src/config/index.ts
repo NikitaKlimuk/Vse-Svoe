@@ -1,4 +1,4 @@
-import tomato from "../img/categories/all/san_marzano.jpg";
+import tomato from "../assets/img/categories/all/san_marzano.jpg";
 
 export const vseSvoeData = {
   footerLink: [

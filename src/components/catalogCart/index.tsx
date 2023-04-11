@@ -1,4 +1,5 @@
 import { CatalogButton } from "../buttons";
+import "./styles.scss";
 
 interface ICatalogCart {
   img: string;
@@ -19,9 +20,11 @@ const CatalogCart: React.FC<ICatalogCart> = ({
 }) => {
   return (
     <div className="catalogCart">
-      <img src={img} alt={alt} />
-      <div className="catalogCart__title">{title}</div>
-      <div className="catalogCart__descr">{descr}</div>
+      <div className="catalogCart__wrapper">
+        <img className="catalogCart__wrapper-img" src={img} alt={alt} />
+        <div className="catalogCart__wrapper-title">{title}</div>
+        <div className="catalogCart__wrapper-descr">{descr}</div>
+      </div>
       {isCatalogButton && <CatalogButton title="В каталог" link={cartLink} />}
     </div>
   );

@@ -4,7 +4,7 @@
   .header {
     margin: 0 60px;
     &__main {
-      background-image: url("../../img/mainPage/RectangleMain.jpg");
+      background-image: url("../../assets/img/mainPage/RectangleMain.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
@@ -36,7 +36,7 @@
       display: flex;
       gap: 20px;
       &-work {
-        background-image: url("../../img/mainPage/work.png");
+        background-image: url("../../assets/img/mainPage/work.png");
         width: 33%;
         height: 94px;
         background-size: cover;
@@ -45,7 +45,7 @@
         border-radius: 16px;
       }
       &-collect {
-        background-image: url("../../img/mainPage/collect.png");
+        background-image: url("../../assets/img/mainPage/collect.png");
         width: 33%;
         height: 94px;
         background-size: cover;
@@ -54,7 +54,7 @@
         border-radius: 16px;
       }
       &-delivery {
-        background-image: url("../../img/mainPage/delivery.png");
+        background-image: url("../../assets/img/mainPage/delivery.png");
         width: 33%;
         height: 94px;
         background-size: cover;
