@@ -1,4 +1,4 @@
-# NASA Media Library React App
+# VseSvoe - Service of purchase and sale of eco products.
 
 The project is designed by design concept. VseSvoe is a platform for the sale and purchase of eco products, with ratings and information about sellers and their products.
 
